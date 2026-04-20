@@ -1,0 +1,307 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Claude Training Program//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Claude Training Program
+X-WR-TIMEZONE:America/Chicago
+
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+UID:claude-training-w1d1@tce
+DTSTART;TZID=America/Chicago:20260420T130000
+DTEND;TZID=America/Chicago:20260420T140000
+SUMMARY:Claude Training — W1D1: The Context Window Constraint
+DESCRIPTION:Open: claude-training/week-1-claude-code/day-1-context-window.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Understand the single constraint that explains every other best practice this month.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-1-context-window.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w1d2@tce
+DTSTART;TZID=America/Chicago:20260421T130000
+DTEND;TZID=America/Chicago:20260421T140000
+SUMMARY:Claude Training — W1D2: CLAUDE.md Files and Persistent Memory
+DESCRIPTION:Open: claude-training/week-1-claude-code/day-2-claude-md.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Build your first CLAUDE.md for ExpertOps. Hands-on session — have your ExpertOps project open.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-2-claude-md.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w1d3@tce
+DTSTART;TZID=America/Chicago:20260422T130000
+DTEND;TZID=America/Chicago:20260422T140000
+SUMMARY:Claude Training — W1D3: Research → Plan → Execute → Review → Ship
+DESCRIPTION:Open: claude-training/week-1-claude-code/day-3-workflow-pattern.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Learn the workflow pattern that keeps Claude focused. You'll map a real ExpertOps feature into the 5 stages.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-3-workflow-pattern.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w1d4@tce
+DTSTART;TZID=America/Chicago:20260423T130000
+DTEND;TZID=America/Chicago:20260423T140000
+SUMMARY:Claude Training — W1D4: Parallel Sessions and Sub-Agents
+DESCRIPTION:Open: claude-training/week-1-claude-code/day-4-parallel-sessions.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Understand how to multiply output by running work in parallel with git worktrees and sub-agents.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-4-parallel-sessions.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w1d5@tce
+DTSTART;TZID=America/Chicago:20260424T130000
+DTEND;TZID=America/Chicago:20260424T140000
+SUMMARY:Claude Training — W1D5: Failure Patterns to Avoid
+DESCRIPTION:Open: claude-training/week-1-claude-code/day-5-failure-patterns.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Recognize the 8 failure patterns before you fall into them. Audit a recent real session.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-5-failure-patterns.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w2d1@tce
+DTSTART;TZID=America/Chicago:20260427T130000
+DTEND;TZID=America/Chicago:20260427T140000
+SUMMARY:Claude Training — W2D1: The Three-Tier Skill Architecture
+DESCRIPTION:Open: claude-training/week-2-skills/day-1-three-tier-architecture.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Learn the official Anthropic skill structure. Walk through one existing TCE skill to diagnose what's in each tier.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-1-three-tier-architecture.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w2d2@tce
+DTSTART;TZID=America/Chicago:20260428T130000
+DTEND;TZID=America/Chicago:20260428T140000
+SUMMARY:Claude Training — W2D2: Audit Your Existing TCE Skills
+DESCRIPTION:Open: claude-training/week-2-skills/day-2-audit-existing-skills.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Run the 4-question audit on all four skills: tce-brief-decoder\, instantly-csv-processor\, zerobounce-pipeline\, personalized-outreach.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-2-audit-existing-skills.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w2d3@tce
+DTSTART;TZID=America/Chicago:20260429T130000
+DTEND;TZID=America/Chicago:20260429T140000
+SUMMARY:Claude Training — W2D3: Skill Success Criteria
+DESCRIPTION:Open: claude-training/week-2-skills/day-3-success-criteria.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Write measurable success criteria for all four skills. Pick one to restructure.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-3-success-criteria.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w2d4@tce
+DTSTART;TZID=America/Chicago:20260430T130000
+DTEND;TZID=America/Chicago:20260430T140000
+SUMMARY:Claude Training — W2D4: Quality Checklists and Validation Gates
+DESCRIPTION:Open: claude-training/week-2-skills/day-4-validation-gates.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Build a copy-paste-ready validation gate for the skill you're restructuring.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-4-validation-gates.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w2d5@tce
+DTSTART;TZID=America/Chicago:20260501T130000
+DTEND;TZID=America/Chicago:20260501T140000
+SUMMARY:Claude Training — W2D5: Testing Against Baseline and Iteration
+DESCRIPTION:Open: claude-training/week-2-skills/day-5-baseline-and-iteration.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Run the 3-way baseline test (no skill / old skill / new skill) on real data. Ship or iterate.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-5-baseline-and-iteration.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w3d1@tce
+DTSTART;TZID=America/Chicago:20260504T130000
+DTEND;TZID=America/Chicago:20260504T140000
+SUMMARY:Claude Training — W3D1: XML Tags and Structural Clarity
+DESCRIPTION:Open: claude-training/week-3-prompting/day-1-xml-tags.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Rewrite one existing prompt with XML tags. Run both versions and compare.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-1-xml-tags.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w3d2@tce
+DTSTART;TZID=America/Chicago:20260505T130000
+DTEND;TZID=America/Chicago:20260505T140000
+SUMMARY:Claude Training — W3D2: Longform Data at the Top
+DESCRIPTION:Open: claude-training/week-3-prompting/day-2-longform-data.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Rewrite a long-input prompt data-first. Compare output quality on the same input.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-2-longform-data.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w3d3@tce
+DTSTART;TZID=America/Chicago:20260506T130000
+DTEND;TZID=America/Chicago:20260506T140000
+SUMMARY:Claude Training — W3D3: Ground Responses in Quotes
+DESCRIPTION:Open: claude-training/week-3-prompting/day-3-grounding-in-quotes.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Add quote-then-conclude grounding to a skill that draws conclusions from documents. Kill hallucination.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-3-grounding-in-quotes.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w3d4@tce
+DTSTART;TZID=America/Chicago:20260507T130000
+DTEND;TZID=America/Chicago:20260507T140000
+SUMMARY:Claude Training — W3D4: Role Setting in System Prompts
+DESCRIPTION:Open: claude-training/week-3-prompting/day-4-role-setting.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Write a role sentence for all four TCE skills. Update the worst-offending skill and compare output.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-4-role-setting.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w3d5@tce
+DTSTART;TZID=America/Chicago:20260508T130000
+DTEND;TZID=America/Chicago:20260508T140000
+SUMMARY:Claude Training — W3D5: Avoiding Generic and AI Slop Aesthetic
+DESCRIPTION:Open: claude-training/week-3-prompting/day-5-anti-slop.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Build tce-voice.md\, update personalized-outreach\, generate 5 real emails\, read them out loud\, iterate until they sound like TCE.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-5-anti-slop.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w4d1@tce
+DTSTART;TZID=America/Chicago:20260511T130000
+DTEND;TZID=America/Chicago:20260511T140000
+SUMMARY:Claude Training — W4D1: MCP Servers Over CLI for Sensitive Data
+DESCRIPTION:Open: claude-training/week-4-anthropic-patterns/day-1-mcp-over-cli.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Inventory every sensitive system Claude Code touches. Pick one (probably ExpertOps/Supabase) to convert from CLI to MCP first.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-1-mcp-over-cli.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w4d2@tce
+DTSTART;TZID=America/Chicago:20260512T130000
+DTEND;TZID=America/Chicago:20260512T140000
+SUMMARY:Claude Training — W4D2: CLAUDE.md as Your Data Catalog
+DESCRIPTION:Open: claude-training/week-4-anthropic-patterns/day-2-claude-md-as-catalog.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Upgrade the ExpertOps CLAUDE.md from basic notes to a full system catalog with system map\, business logic\, and query patterns.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-2-claude-md-as-catalog.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w4d3@tce
+DTSTART;TZID=America/Chicago:20260513T130000
+DTEND;TZID=America/Chicago:20260513T140000
+SUMMARY:Claude Training — W4D3: Session Sharing and Team Workflows
+DESCRIPTION:Open: claude-training/week-4-anthropic-patterns/day-3-team-sessions.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Schedule your first weekly team session. Pick a demo topic\, pick 2-3 invitees\, create tce-claude-playbook.md.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-3-team-sessions.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w4d4@tce
+DTSTART;TZID=America/Chicago:20260514T130000
+DTEND;TZID=America/Chicago:20260514T140000
+SUMMARY:Claude Training — W4D4: Skills for Bulk Operations
+DESCRIPTION:Open: claude-training/week-4-anthropic-patterns/day-4-bulk-skills.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Find one serial workflow that should be bulk. Design the batch size\, checkpointing\, and whole-batch validation.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-4-bulk-skills.md
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:claude-training-w4d5@tce
+DTSTART;TZID=America/Chicago:20260515T130000
+DTEND;TZID=America/Chicago:20260515T140000
+SUMMARY:Claude Training — W4D5: The Full Picture — Capstone and Retrospective
+DESCRIPTION:Open: claude-training/week-4-anthropic-patterns/day-5-intuition-over-rules.md\nCopy the Tutor Prompt block at the top and paste it into Claude.\n\nGoal: Connect everything. Write your retrospective. Commit to the post-training monthly rhythm. Draft thank-you to your CIO.
+LOCATION:Claude Code / Claude.ai
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Claude Training in 10 minutes — open day-5-intuition-over-rules.md — FINAL DAY
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
