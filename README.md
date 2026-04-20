@@ -27,7 +27,7 @@ After four weeks you should understand not just *what* the best practices are, b
 ## Progress Tracker
 
 ### Week 1 — Claude Code Fundamentals
-- [ ] [Monday: The Context Window Constraint](./week-1-claude-code/day-1-context-window.md)
+- [Y] [Monday: The Context Window Constraint](./week-1-claude-code/day-1-context-window.md)
 - [ ] [Tuesday: CLAUDE.md Files and Persistent Memory](./week-1-claude-code/day-2-claude-md.md)
 - [ ] [Wednesday: Research → Plan → Execute → Review → Ship](./week-1-claude-code/day-3-workflow-pattern.md)
 - [ ] [Thursday: Parallel Sessions and Sub-Agents](./week-1-claude-code/day-4-parallel-sessions.md)
